@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic CMakeFiles/PatzerKiller.dir/main.c.o CMakeFiles/PatzerKiller.dir/init.c.o CMakeFiles/PatzerKiller.dir/bitboard.c.o -o PatzerKiller 

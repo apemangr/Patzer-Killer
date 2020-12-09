@@ -1,4 +1,0 @@
-/home/apeman/Dropbox/ChessEngine/build/CMakeFiles/rebuild_cache.dir
-/home/apeman/Dropbox/ChessEngine/build/CMakeFiles/edit_cache.dir
-/home/apeman/Dropbox/ChessEngine/build/CMakeFiles/PatzerKiller.dir
-/home/apeman/Dropbox/ChessEngine/build/CMakeFiles/PKLib.dir
