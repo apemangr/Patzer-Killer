@@ -4,4 +4,4 @@ language: c
 
 script:
   - cmake .
-  - cmake --build /buildir -- --j2
+  - cmake --build /build -- --j2
