@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPKLib.a CMakeFiles/PKLib.dir/main.c.o CMakeFiles/PKLib.dir/init.c.o CMakeFiles/PKLib.dir/bitboard.c.o
+/usr/bin/ranlib libPKLib.a

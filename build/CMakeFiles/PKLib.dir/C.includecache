@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/apeman/Dropbox/ChessEngine/defs.h
+stdlib.h
+-
+
+/home/apeman/Dropbox/ChessEngine/main.c
+stdio.h
+-
+defs.h
+/home/apeman/Dropbox/ChessEngine/defs.h
+
