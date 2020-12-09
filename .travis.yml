@@ -3,5 +3,6 @@ sudo: false
 language: c
 
 script:
-  - cmake .
-  - cmake --build /build -- --j2
+  - cd build
+  - cmake ..
+  - make
