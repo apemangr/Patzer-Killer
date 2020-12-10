@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/apeman/Github/Patzer-Killer/defs.h
+stdlib.h
+-
+
+/home/apeman/Github/Patzer-Killer/main.c
+stdio.h
+-
+defs.h
+/home/apeman/Github/Patzer-Killer/defs.h
+

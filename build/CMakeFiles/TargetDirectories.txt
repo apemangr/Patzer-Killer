@@ -1,0 +1,4 @@
+/home/apeman/Github/Patzer-Killer/build/CMakeFiles/rebuild_cache.dir
+/home/apeman/Github/Patzer-Killer/build/CMakeFiles/edit_cache.dir
+/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PatzerKiller.dir
+/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PKLib.dir

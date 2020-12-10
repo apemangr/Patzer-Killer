@@ -8,22 +8,18 @@ int main() {
   U64 playBitboard = 0ULL;
 
   printf("\nStart here\n\n");
-  printingBitboard(playBitboard);
-
-
-
   playBitboard |= (1ULL << SQ64(D2));
-  
-  printf("\nStart here\n\n");
-  printingBitboard(playBitboard);
-
-
   playBitboard |= (1ULL << SQ64(H8));
-  
-  printf("\nStart here\n\n");
+  playBitboard |= (1ULL << SQ64(A2));
   printingBitboard(playBitboard);
 
+  int sq64=0;
+
+  while (playBitboard) {
+    sq64= POP(&playBitboard);
+    printf("Popped: %d\n", sq64);
+    printingBitboard(playBitboard);
+  }
 
   
- 
 }
