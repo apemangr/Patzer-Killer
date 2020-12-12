@@ -4,22 +4,15 @@
 int main() {
 
   allInit();
-
+  
   U64 playBitboard = 0ULL;
+  int index=0;
 
-  printf("\nStart here\n\n");
-  playBitboard |= (1ULL << SQ64(D2));
-  playBitboard |= (1ULL << SQ64(H8));
-  playBitboard |= (1ULL << SQ64(A2));
-  printingBitboard(playBitboard);
-
-  int sq64=0;
-
-  while (playBitboard) {
-    sq64= POP(&playBitboard);
-    printf("Popped: %d\n", sq64);
-    printingBitboard(playBitboard);
-  }
+  for (index=0; index<64; index++) {
+    printf("Index: %d\n", index);
+    printingBitboard(setMask[2]);
+    printf("\n");
+      }
 
   
 }
