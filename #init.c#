@@ -68,4 +68,6 @@ void initSq120to64() {
 void allInit() {
   initSq120to64();
   initBitMasks();
+  initHashKeys();
+  
 }

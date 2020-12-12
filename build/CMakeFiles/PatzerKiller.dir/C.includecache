@@ -10,13 +10,7 @@
 stdlib.h
 -
 
-/home/apeman/Github/Patzer-Killer/hashkeys.c
-
-/home/apeman/Github/Patzer-Killer/main.c
-stdio.h
--
+/home/apeman/Github/Patzer-Killer/init.c
 defs.h
 /home/apeman/Github/Patzer-Killer/defs.h
-stdlib.h
--
 

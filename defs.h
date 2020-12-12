@@ -67,7 +67,7 @@ enum {
   C2,  D2,  E2,  F2,  G2,  H2,  A3 = 41,  B3,  C3,  D3,  E3,  F3,  G3,  H3,  A4 = 51,  B4,
   C4,  D4,  E4,  F4,  G4,  H4,  A5 = 61,  B5,  C5,  D5,  E5,  F5,  G5,  H5,  A6 = 71,  B6,
   C6,  D6,  E6,  F6,  G6,  H6,  A7 = 81,  B7,  C7,  D7,  E7,  F7,  G7,  H7,  A8 = 91,  B8,
-  C8,  D8,  E8,  F8,  G8,  H8,  NO_SQ};
+  C8,  D8,  E8,  F8,  G8,  H8,  NO_SQ, OFFBOARD};
 
 enum { FALSE, TRUE };
 
@@ -104,6 +104,7 @@ typedef struct {
 // Macros//
 #define FR2SQ(f, r) ((21 + (f)) + ((r)*10))
 #define SQ64(sq120) sq120ToSq64[sq120]
+#define SQ120(sq64) (sq64ToSq120[(sq64)])
 #define POP(n) popBit(n)
 #define CNT(n) countBits(n)
 #define CLRBIT(bb, sq) ((bb) &= clearMask[(sq)])
@@ -115,13 +116,20 @@ extern int sq120ToSq64[BRD_SQ_NUM];
 extern int sq64ToSq120[64];
 extern U64 setMask[64];
 extern U64 clearMask[64];
-
+extern U64 pieceKeys[13][120];
+extern U64 sideKey;
+extern U64 castleKeys[16];
 
 // Functions//
 extern void allInit();
 
+// hashkeys.c
+extern U64 generatePosKey(const S_BOARD *pos);
 
- // bitboard.c
+// board.c
+extern void resetBoard(S_BOARD *pos);
+  
+// bitboard.c
 extern void printingBitboard(U64 bb);
 extern int popBit(U64 *bb);
 extern int countBits(U64 b);
