@@ -95,12 +95,12 @@ clean: CMakeFiles/PKLib.dir/clean
 CMakeFiles/PatzerKiller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PatzerKiller.dir/build.make CMakeFiles/PatzerKiller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PatzerKiller.dir/build.make CMakeFiles/PatzerKiller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=5,6,7,8 "Built target PatzerKiller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target PatzerKiller"
 .PHONY : CMakeFiles/PatzerKiller.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PatzerKiller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PatzerKiller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 0
 .PHONY : CMakeFiles/PatzerKiller.dir/rule
@@ -122,12 +122,12 @@ CMakeFiles/PatzerKiller.dir/clean:
 CMakeFiles/PKLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=1,2,3,4 "Built target PKLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target PKLib"
 .PHONY : CMakeFiles/PKLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PKLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PKLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/apeman/Github/Patzer-Killer/build/CMakeFiles 0
 .PHONY : CMakeFiles/PKLib.dir/rule

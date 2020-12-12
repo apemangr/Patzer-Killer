@@ -4,6 +4,8 @@
 CMakeFiles/PatzerKiller.dir/bitboard.c.o
  /home/apeman/Github/Patzer-Killer/bitboard.c
  /home/apeman/Github/Patzer-Killer/defs.h
+CMakeFiles/PatzerKiller.dir/hashkeys.c.o
+ /home/apeman/Github/Patzer-Killer/hashkeys.c
 CMakeFiles/PatzerKiller.dir/init.c.o
  /home/apeman/Github/Patzer-Killer/defs.h
  /home/apeman/Github/Patzer-Killer/init.c

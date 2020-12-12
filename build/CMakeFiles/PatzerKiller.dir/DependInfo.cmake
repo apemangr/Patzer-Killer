@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/apeman/Github/Patzer-Killer/bitboard.c" "/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PatzerKiller.dir/bitboard.c.o"
+  "/home/apeman/Github/Patzer-Killer/hashkeys.c" "/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PatzerKiller.dir/hashkeys.c.o"
   "/home/apeman/Github/Patzer-Killer/init.c" "/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PatzerKiller.dir/init.c.o"
   "/home/apeman/Github/Patzer-Killer/main.c" "/home/apeman/Github/Patzer-Killer/build/CMakeFiles/PatzerKiller.dir/main.c.o"
   )

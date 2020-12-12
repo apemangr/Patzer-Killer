@@ -1,18 +1,28 @@
 #include <stdio.h>
 #include "defs.h"
+#include <stdlib.h>
 
 int main() {
 
   allInit();
-  
-  U64 playBitboard = 0ULL;
-  int index=0;
 
-  for (index=0; index<64; index++) {
-    printf("Index: %d\n", index);
-    printingBitboard(setMask[2]);
-    printf("\n");
-      }
+  int pieceone = rand();
+  int piecetwo= rand();
+  int piecethree= rand();
+  int piecefour=rand();
 
-  
+
+  printf("Piece One: %X   \n", pieceone);
+  printf("Piece two: %X   \n", piecetwo);
+  printf("Piece three: %X \n", piecethree);
+  printf("Piece four: %X  \n", piecefour);
+
+  int key = pieceone ^ piecetwo ^ piecethree ^ piecefour;
+  int tempKey = pieceone;
+  tempKey ^= piecethree;
+  tempKey ^= piecefour;
+  tempKey ^= piecetwo;
+
+  printf("Key: %X\n", key);
+  printf("TempKey: %X\n", tempKey);
 }

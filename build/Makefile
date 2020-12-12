@@ -185,6 +185,36 @@ bitboard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/bitboard.c.s
 .PHONY : bitboard.c.s
 
+hashkeys.o: hashkeys.c.o
+
+.PHONY : hashkeys.o
+
+# target to build an object file
+hashkeys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PatzerKiller.dir/build.make CMakeFiles/PatzerKiller.dir/hashkeys.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/hashkeys.c.o
+.PHONY : hashkeys.c.o
+
+hashkeys.i: hashkeys.c.i
+
+.PHONY : hashkeys.i
+
+# target to preprocess a source file
+hashkeys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PatzerKiller.dir/build.make CMakeFiles/PatzerKiller.dir/hashkeys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/hashkeys.c.i
+.PHONY : hashkeys.c.i
+
+hashkeys.s: hashkeys.c.s
+
+.PHONY : hashkeys.s
+
+# target to generate assembly for a file
+hashkeys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PatzerKiller.dir/build.make CMakeFiles/PatzerKiller.dir/hashkeys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PKLib.dir/build.make CMakeFiles/PKLib.dir/hashkeys.c.s
+.PHONY : hashkeys.c.s
+
 init.o: init.c.o
 
 .PHONY : init.o
@@ -258,6 +288,9 @@ help:
 	@echo "... bitboard.o"
 	@echo "... bitboard.i"
 	@echo "... bitboard.s"
+	@echo "... hashkeys.o"
+	@echo "... hashkeys.i"
+	@echo "... hashkeys.s"
 	@echo "... init.o"
 	@echo "... init.i"
 	@echo "... init.s"

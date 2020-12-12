@@ -115,11 +115,25 @@ CMakeFiles/PKLib.dir/bitboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PKLib.dir/bitboard.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/apeman/Github/Patzer-Killer/bitboard.c -o CMakeFiles/PKLib.dir/bitboard.c.s
 
+CMakeFiles/PKLib.dir/hashkeys.c.o: CMakeFiles/PKLib.dir/flags.make
+CMakeFiles/PKLib.dir/hashkeys.c.o: ../hashkeys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PKLib.dir/hashkeys.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PKLib.dir/hashkeys.c.o -c /home/apeman/Github/Patzer-Killer/hashkeys.c
+
+CMakeFiles/PKLib.dir/hashkeys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PKLib.dir/hashkeys.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/apeman/Github/Patzer-Killer/hashkeys.c > CMakeFiles/PKLib.dir/hashkeys.c.i
+
+CMakeFiles/PKLib.dir/hashkeys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PKLib.dir/hashkeys.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/apeman/Github/Patzer-Killer/hashkeys.c -o CMakeFiles/PKLib.dir/hashkeys.c.s
+
 # Object files for target PKLib
 PKLib_OBJECTS = \
 "CMakeFiles/PKLib.dir/main.c.o" \
 "CMakeFiles/PKLib.dir/init.c.o" \
-"CMakeFiles/PKLib.dir/bitboard.c.o"
+"CMakeFiles/PKLib.dir/bitboard.c.o" \
+"CMakeFiles/PKLib.dir/hashkeys.c.o"
 
 # External object files for target PKLib
 PKLib_EXTERNAL_OBJECTS =
@@ -127,9 +141,10 @@ PKLib_EXTERNAL_OBJECTS =
 libPKLib.a: CMakeFiles/PKLib.dir/main.c.o
 libPKLib.a: CMakeFiles/PKLib.dir/init.c.o
 libPKLib.a: CMakeFiles/PKLib.dir/bitboard.c.o
+libPKLib.a: CMakeFiles/PKLib.dir/hashkeys.c.o
 libPKLib.a: CMakeFiles/PKLib.dir/build.make
 libPKLib.a: CMakeFiles/PKLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libPKLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/apeman/Github/Patzer-Killer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libPKLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/PKLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PKLib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -4,6 +4,8 @@
 CMakeFiles/PatzerKiller.dir/bitboard.c.o: ../bitboard.c
 CMakeFiles/PatzerKiller.dir/bitboard.c.o: ../defs.h
 
+CMakeFiles/PatzerKiller.dir/hashkeys.c.o: ../hashkeys.c
+
 CMakeFiles/PatzerKiller.dir/init.c.o: ../defs.h
 CMakeFiles/PatzerKiller.dir/init.c.o: ../init.c
 

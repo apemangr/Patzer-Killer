@@ -4,6 +4,8 @@
 CMakeFiles/PKLib.dir/bitboard.c.o: ../bitboard.c
 CMakeFiles/PKLib.dir/bitboard.c.o: ../defs.h
 
+CMakeFiles/PKLib.dir/hashkeys.c.o: ../hashkeys.c
+
 CMakeFiles/PKLib.dir/init.c.o: ../defs.h
 CMakeFiles/PKLib.dir/init.c.o: ../init.c
 

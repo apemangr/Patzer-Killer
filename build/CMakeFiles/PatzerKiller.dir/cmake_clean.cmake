@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PatzerKiller.dir/bitboard.c.o"
+  "CMakeFiles/PatzerKiller.dir/hashkeys.c.o"
   "CMakeFiles/PatzerKiller.dir/init.c.o"
   "CMakeFiles/PatzerKiller.dir/main.c.o"
   "PatzerKiller"

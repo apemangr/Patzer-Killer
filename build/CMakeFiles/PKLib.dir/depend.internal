@@ -4,6 +4,8 @@
 CMakeFiles/PKLib.dir/bitboard.c.o
  /home/apeman/Github/Patzer-Killer/bitboard.c
  /home/apeman/Github/Patzer-Killer/defs.h
+CMakeFiles/PKLib.dir/hashkeys.c.o
+ /home/apeman/Github/Patzer-Killer/hashkeys.c
 CMakeFiles/PKLib.dir/init.c.o
  /home/apeman/Github/Patzer-Killer/defs.h
  /home/apeman/Github/Patzer-Killer/init.c

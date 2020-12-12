@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PKLib.dir/bitboard.c.o"
+  "CMakeFiles/PKLib.dir/hashkeys.c.o"
   "CMakeFiles/PKLib.dir/init.c.o"
   "CMakeFiles/PKLib.dir/main.c.o"
   "libPKLib.a"
